@@ -1,0 +1,78 @@
+.user_component{
+    justify-content: space-between;
+}
+.user_component ,.user_component_column{
+    display:flex;
+    align-items: center;
+    
+}
+.user_component{
+    border-bottom: rgba(0,0,0,0.1) 1px solid;
+    padding-bottom: 30px;
+}
+.user_component_avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.user_component_name{
+    font-size: 20px;
+    font-weight: 600;
+}
+.user_component_subtitle{
+    margin-top: 8px;
+    font-size: 17px;
+    color: rgba(0,0,0,0.5);
+}
+.user_component_avatar_m{
+    width: 55px;
+    height: 55px;
+    
+}
+.friends-screen{
+    padding: 0px var(--horizontal-space);
+}
+.friends-screen_channel{
+    margin-top:10px;
+    padding-bottom: 15px;
+    
+}
+.friends-screen_channel-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.friends-screen_channel-header span{
+    color: rgba(0,0,0,0.5);
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+.user_component span,.user_component i{
+    color: rgba(0,0,0,0.5);
+    position: relative;
+
+}
+.user_component i{
+    top:1.2px;
+}
+.user_component span{
+    right: 4px;
+}
+.user_component_name_not_bold{
+    
+    font-size: 16px;
+}
+.user_component_avatar_xs{
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    
+}
+.user-component__time{
+    margin-bottom: 10px;
+    display: block;
+}
+

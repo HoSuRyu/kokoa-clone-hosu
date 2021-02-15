@@ -1,0 +1,48 @@
+@import "Component/reset.css";
+@import "Component/status-bar.css";
+@import "Component/welcome-header.css";
+@import "Component/nav-bar.css";
+@import "Component/screen-header.css";
+@import "Component/friends.css";
+@import "Component/user-component.css";
+@import "Component/variables.css";
+@import "Component/badge.css";
+@import "Component/icon-row.css";
+@import "Component/alt-screen-header.css";
+@import "Component/no-mobile.css";
+
+@import "screen/Login.css";
+@import "screen/friends.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chatting.css";
+body{
+    
+    height:140vh;
+    animation: fadein 0.3s linear;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.main-screen{
+    padding:0px var(--horizontal-space);
+    border:none;
+}
+.main-screen .user_component{
+    border:none;
+}
+.main-screen .badge{
+    position: relative;
+    left:5px;
+    
+}
+@keyframes fadein{
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to{
+        transform: none;
+        opacity: 1;
+
+    }
+}

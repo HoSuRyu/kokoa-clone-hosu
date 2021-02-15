@@ -1,0 +1,67 @@
+#friends-display-link{
+    text-align: center;
+    display:block;
+    background-color: #fafafa;
+    padding:15px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.78;
+    margin-bottom: 10px;
+    margin-top:-10px
+    
+}
+#friends-display-link i{
+    color: rgba(0,0,0,0.3)
+}
+@keyframes hideSplashScreen{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+}
+
+#splash-screen{
+    background-color: var(--yellow);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    animation:  hideSplashScreen 0.4s ease-in-out forwards;
+    
+}
+.friends_component{
+    border-bottom: none;    
+    padding-bottom: 20px;;
+}
+.friends_component .user_component_subtitle{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.user_component_music{
+    border:lightgreen 2px solid;
+    display: flex;
+    padding:9px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.friends_component .user_component_music_name{
+    font-size: 12px;
+}
+.user_component_music i{
+    position: relative;
+    bottom: 5px;
+    
+    
+    
+}
